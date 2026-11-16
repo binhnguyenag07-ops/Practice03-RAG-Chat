@@ -1,0 +1,80 @@
+[
+  {
+    "type": "Answerable",
+    "question": "What is special about the Saigon Central Post Office?",
+    "expected_id": "G03",
+    "retrieved_ids": [
+      "G03",
+      "G09",
+      "G04",
+      "G07"
+    ],
+    "answer": "It is known for its grand interior hall, yellow exterior and historic architecture. [G03]",
+    "seconds": 19.84
+  },
+  {
+    "type": "Answerable",
+    "question": "What can visitors buy at Ben Thanh Market?",
+    "expected_id": "G05",
+    "retrieved_ids": [
+      "G05",
+      "G12",
+      "G13",
+      "G09"
+    ],
+    "answer": "Visitors can buy local goods, souvenirs and food at Ben Thanh Market. [G05]",
+    "seconds": 13.73
+  },
+  {
+    "type": "Answerable",
+    "question": "Which church has a pink exterior?",
+    "expected_id": "G11",
+    "retrieved_ids": [
+      "G11",
+      "G04",
+      "G03",
+      "G10"
+    ],
+    "answer": "Tan Dinh Church [G11]",
+    "seconds": 12.91
+  },
+  {
+    "type": "Paraphrase",
+    "question": "Where can I walk along a broad pedestrian boulevard in the city center?",
+    "expected_id": "G06",
+    "retrieved_ids": [
+      "G06",
+      "G09",
+      "G05",
+      "G13"
+    ],
+    "answer": "Nguyen Hue Walking Street [G06]",
+    "seconds": 12.38
+  },
+  {
+    "type": "Out of guide",
+    "question": "How much is the entrance ticket to the War Remnants Museum?",
+    "expected_id": null,
+    "retrieved_ids": [
+      "G02",
+      "G08",
+      "G01",
+      "G05"
+    ],
+    "answer": "I don't know based on the travel guide.",
+    "seconds": 7.58
+  },
+  {
+    "type": "Out of guide",
+    "question": "What time does Ben Thanh Market close today?",
+    "expected_id": null,
+    "retrieved_ids": [
+      "G05",
+      "G12",
+      "G13",
+      "G09"
+    ],
+    "answer": "I don't know based on the travel guide.",
+    "seconds": 5.17
+  }
+]
